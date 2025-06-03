@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Начинаю изучение семантических тегов">
+    <meta name="author" content="PROTON">
+    <title>SEMANTIC-TAGS</title>
+</head>
+
+<body>
+    <header>
+        <!-- Это шапка сайта -->
+        <h1>Это заголовок</h1>
+        <p>Это параграф</p>
+    </header>
+
+    <nav>
+        <!-- Главное меню -->
+        <ul>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Основной контент страницы -->
+        <h2>О нас</h2>
+        <p>Cмотрим как работают семантические теги</p>
+    </main>
+
+    <main>
+        <!-- Раздел о нас -->
+        <section id="about">
+            <h1>О нас</h1>
+            <p>Смотрим, как сейчас работаю секции</p>
+        </section>
+
+        <!-- Раздел услуг -->
+        <section id="services">
+            <p1>Услуги</p1>
+            <p>Любые</p>
+        </section>
+    </main>
+
+    <section id="serviceses">
+        <h2>Наши услуги</h2>
+
+        <!-- Услуга один -->
+        <article>
+            <h3>Курс для начинающих</h3>
+            <p>Хочу за маленький срок знать все</p>
+        </article>
+
+        <!-- Услуга два -->
+        <article>
+            <h3>Курс для начинающих часть 2</h3>
+            <p>Очень много информации</p>
+        </article>
+    </section>
+
+    <aside>
+        <!-- Дополнительный блок: совет -->
+        <h2>Совет дня</h2>
+        <p>Изучай HTML каждый день хотя быпо 15 минут - это лучше, чем раз в неделю по 3 часа! </p>
+    </aside>
+
+    <footer>
+        <!-- Подвал сайта -->
+        <p>Мой сайт. Все права защищены 2025</p>
+        <p>Связь: <a href="mailto:info@site.ua">info@site.ua"</a></p>
+    </footer>
+
+    <main>
+        <!--Маркированный список-->
+        <section id="Lang">
+            <h2>Маркированный список:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <!--Нумерованный список-->
+        <section id="verb">
+            <h2>Нумерованный список:</h2>
+            <ol>
+                <li>Включить компьютер</li>
+                <li>Открыть редактор кода</li>
+                <li>Начать писать HTML</li>
+            </ol>
+        </section>
+    </main>
+
+    <aside>
+            <!-- Блок ссылок -->
+            <p><a href="https://developer.mozilla.org" target="_blank">Внешняя ссылка</a></p>
+            <p><a href="#verb">Внутрення ссылка на раздел</a></p>
+            <p><a href="mailto:mihonin198232342@hazhab.com">Написать на почту</a></p>
+            <p><a href="tel:+380508102415" target="_blank">Позвонить</a></p>
+    </aside>
+
+    <article>
+        <!-- Изображение -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1920px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="300">
+    </article>
+
+    <section id="contact">
+        <h2>Свяжитесь с нами</h2>
+
+        <!--Форма обратной свзи-->
+        <form>
+            <p>
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" placeholder="Введите имя" required>
+            </p>
+
+            <p>
+                <label for="email">Ваш email:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required> 
+            </p>
+
+            <p>
+                <label for="message">Сообщение:</label><br> 
+                <textarea id="message" name="message" rows="5" cols="40" placeholder="Ваше сообщение"></textarea>
+            </p>
+
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+        </form>
+
+        <section id="schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Возраст</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Екатеринв</td>
+                        <td>26</td>
+                        <td>katyck@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Кристина</td>
+                        <td>25</td>
+                        <td>ckris@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </section>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>День</th>
+                    <th>Время</th>
+                    <th>Задание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Понедельник</td>
+                    <td>09:00</td>
+                    <td>workking</td>
+                </tr>
+                <tr>
+                    <td>Вторник</td>
+                    <td>09:00</td>
+                    <td>workking</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td>09:00</td>
+                    <td>workking</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
